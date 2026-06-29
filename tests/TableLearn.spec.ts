@@ -22,7 +22,7 @@ test('Table Local', async ({ page }) => {
 
 
 
-test.only('nTh Table Local', async ({ page }) => {
+test('nTh Table Local', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
 
 
