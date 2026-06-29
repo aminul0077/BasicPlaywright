@@ -76,7 +76,7 @@ test('Confirm Alert_Prompt', async ({ page }) => {
 });
 
 
-test.only('Confirm Alert_Prompt_cancel', async ({ page }) => {
+test('Confirm Alert_Prompt_cancel', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
 
 
